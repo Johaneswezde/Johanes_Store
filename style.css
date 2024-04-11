@@ -1,0 +1,252 @@
+:root {
+    --blue: #0090DB;
+    --yellow: #DBD500;
+}
+
+.app-nav-link {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    width: 150px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+}
+
+header {
+    min-height: 50vh;
+    background-color: var(--blue);
+}
+
+/* slider */
+
+.slider-container {
+    width: 800px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.slider-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.slider-content img {
+    width: 250px;
+}
+
+.slider-content>div {
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.slider-content p::first-letter {
+    padding-left: 20px;
+}
+
+.slider-content p {
+    text-align: justify;
+}
+
+.slider-content h2 {
+    text-align: center;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(107, 134, 210);
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(107, 134, 210);
+    border-radius: 50%;
+}
+
+
+/* pc-section */
+.pc-section {
+    background-color: #DBD500;
+    font-size: 32px;
+    padding: 30px;
+}
+
+.pc-section h2 {
+    background-color: white;
+    width: 375px;
+    padding: 9px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.pc-section .articles {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pc-section article {
+    text-align: center;
+    padding: 20px 0 40px;
+    width: 378px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.pc-section article:hover {
+    background-color: antiquewhite;
+    transition: all 1s;
+}
+
+.pc-section article a:hover {
+    background-color: #0090DB;
+    transition: all 1s;
+}
+
+.pc-section article p {
+    width: 290px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.pc-section article a {
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 16px;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 15px
+}
+
+.pc-section article p::first-letter {
+    padding-left: 50px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+@media (max-width: 768px) {
+    .app-nav-link {
+        padding: 0px;
+        border-radius: 10px;
+        background-color: transparent;
+        width: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+
+/* pc-section */
+.phone-section {
+    background-color: gray;
+    font-size: 32px;
+    padding: 30px;
+}
+
+.phone-section h2 {
+    background-color: white;
+    width: 375px;
+    padding: 9px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.phone-section .articles {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.phone-section article {
+    text-align: center;
+    padding: 20px 0 40px;
+    width: 378px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+}
+
+.phone-section article:hover {
+    background-color: antiquewhite;
+    transition: all 1s;
+}
+
+.phone-section article a:hover {
+    background-color: #0090DB;
+    transition: all 1s;
+}
+
+.phone-section article p {
+    width: 290px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.phone-section article a {
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 16px;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 15px
+}
+
+.phone-section article p::first-letter {
+    padding-left: 50px;
+}
+.Phoneicon{
+    position: absolute;
+    left: 22px;
+    top: 9px;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+@media (max-width: 768px) {
+    .app-nav-link {
+        padding: 0px;
+        border-radius: 10px;
+        background-color: transparent;
+        width: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 5px;
+    }
+}
+
